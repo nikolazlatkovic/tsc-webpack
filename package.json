@@ -1,0 +1,24 @@
+{
+  "name": "tsc-webpack",
+  "version": "0.0.1",
+  "description": "This is a project template, created from official Webpack tutorials.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "serve dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "serve": "^11.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
